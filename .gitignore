@@ -45,3 +45,5 @@ Temporary Items
 
 # On s'en fout des objets construits
 *.o
+# Et des .exe aussi...
+*.exe
