@@ -101,7 +101,7 @@ void Harbor::moveBoatsToQuais()
 		else if(BoatPosition->y < QuaiPosition.y )//si le bateau est à gauche du quai
 			{moveBoat(_it_reservation->second,BoatPosition->x,BoatPosition->y+1);}//Je le deplace d'une case vers la droite
 		else if(BoatPosition->x == QuaiPosition.x && BoatPosition->y == QuaiPosition.y)
-			{cout<<"Bateau arrive"<<endl;}
+			{}
 		_it_reservation++;
 	}
 }
@@ -274,13 +274,21 @@ void Harbor::collision(Ship* Boat1,Ship* Boat2){
 	coord* coordBoat2=findShip(Boat2);
 	//On verifie que les 2 bateaux soient sur la meme case
 	cout<<"Collision"<<endl;
-	if(Boat1->getSolidity() > Boat2->getSolidity())
+	// Ne trouve pas la soliditée ...
+	int solid1 = Boat1->getSolidity();
+	int solid2 = Boat2->getSolidity();
+	cout << "Solidite 1 : "<< solid1 << "; Solidite 2 : "<< solid2 << endl;
+	if(solid1 > solid2)
 	{
+		cout <<" 1 plus fort que 2 " << endl;
 		deleteShip(Boat2);
+		moveBoat(Boat1, coordBoat2->x, coordBoat2->y);
 	}
 	else
 	{
-		coordBoat1->x++;
+		cout << " 2 pus fort que 1 " << endl;
+		deleteShip(Boat1);
+		/*coordBoat1->x++;
 		if(isThereAShip(coordBoat1)==true)
 			{moveBoat(Boat1,coordBoat1->x,coordBoat1->y);}
 		else{
@@ -294,6 +302,6 @@ void Harbor::collision(Ship* Boat1,Ship* Boat2){
 			if(isThereAShip(coordBoat1)==true)
 				{moveBoat(Boat1,coordBoat1->x,coordBoat1->y);}
 			}
-		}
+		}*/
 	}
 }

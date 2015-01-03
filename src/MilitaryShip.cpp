@@ -1,8 +1,13 @@
 #include "MilitaryShip.h"
+#include "Ship.h"
 
 MilitaryShip::MilitaryShip()
 {
     //ctor
+}
+MilitaryShip::MilitaryShip(std::string Name, Factory* f) : Ship( Name, f)
+{
+
 }
 float MilitaryShip::failureProbability(){
 	return 50;
@@ -10,7 +15,7 @@ float MilitaryShip::failureProbability(){
 bool MilitaryShip::accept(int dockId){
 	if(dockId >= 20)
 		{return true;}
-	else 
+	else
 	{return false;}
 }
 int MilitaryShip::getPriority(){

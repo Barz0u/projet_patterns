@@ -11,7 +11,8 @@
 #include "MilitaryShip.h"
 #include "FishingBoat.h"
 #include "Harbor.h"
-
+#include "SmallShipFactory.h"
+#include "BigShipFactory.h"
 
 using namespace std;
 
@@ -25,17 +26,19 @@ instance::~instance()
 
 Ship* instance::createShip()
 {
-   /* int random = rand()%100;
+	BigShipFactory* BigFacto = new BigShipFactory();
+	SmallShipFactory* SmallFacto = new SmallShipFactory();
+    int random = rand()%100;
     if(random<25)
-    {return new PassengerShip();}
-    if(random>25 && random <50)
-    {return new FishingBoat();}
-    if(random>50 && random<75)
-    {return new MilitaryShip();}
-    if(random<75)
-    {return new PleasureCraft();}*/
-
-    return new PassengerShip();
+    {return new PassengerShip("Passenger",SmallFacto);}
+    else if(random>25 && random <50)
+    {return new FishingBoat("Fishing",BigFacto);}
+    else if(random>50 && random<75)
+    {return new MilitaryShip("Military",BigFacto);}
+    else if(random<75)
+    {return new PleasureCraft("Pleasure",SmallFacto);}
+    else
+    {return new PleasureCraft("Pleasure",SmallFacto);}
 }
 
 void instance::addToWaitList(Ship* Boat) // Ajoute l'élement a la file
@@ -57,6 +60,7 @@ void instance::cycle()
 		{
 			cout<<"Un bateau sauvage apparait"<<endl;
 			Boat = createShip();	//Je créé mon bateau
+			cout<<Boat->getName()<<endl;
 			coordEntrance = Port->getInitialPosition(); // Je recup les position d'entrée de mon port
 			if(Port->isThereAShip(coordEntrance)==false)//Si pas de bateau sur l'entrée
 			{
@@ -95,6 +99,6 @@ void instance::cycle()
 		Port->dessineMatrix();
 		cout<<" "<<endl;
 		cout<<" "<<endl;
-		Sleep(500);
+		Sleep(1000);
 	}
 }

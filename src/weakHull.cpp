@@ -2,7 +2,6 @@
 
 WeakHull::WeakHull()
 {
-    //ctor
     m_solidity = 1;
 }
 

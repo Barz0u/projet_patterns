@@ -1,9 +1,14 @@
 #include "FishingBoat.h"
+#include "Ship.h"
 #include <windows.h>
 
 FishingBoat::FishingBoat()
 {
     //ctor
+}
+FishingBoat::FishingBoat(std::string Name, Factory* f): Ship(Name , f)
+{
+
 }
 float FishingBoat::failureProbability(){
 	int random =0;
@@ -14,7 +19,7 @@ float FishingBoat::failureProbability(){
 bool FishingBoat::accept(int dockId){
 	if(dockId % 2 != 0)
 		{return true;}
-	else 
+	else
 	{return false;}
 }
 int FishingBoat::getPriority(){

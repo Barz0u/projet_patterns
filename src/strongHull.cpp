@@ -2,7 +2,7 @@
 
 StrongHull::StrongHull()
 {
-    //ctor
+    m_solidity = 4;
 }
 
 StrongHull::~StrongHull()

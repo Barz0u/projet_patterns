@@ -366,3 +366,291 @@
 	"FishingBoat.h"
 	"Harbor.h"
 
+1418822320 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\main.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<cstdlib>
+	"Ship.h"
+	"coord.h"
+	"Harbor.h"
+	"instance.h"
+
+1418829749 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\ship.h
+	<string>
+
+1416752534 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\coord.h
+
+1418822710 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\harbor.h
+	"coord.h"
+
+1417687396 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\instance.h
+	<queue>
+
+1418826745 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\bigshipfactory.cpp
+	"BigShipFactory.h"
+	"JetEngine.h"
+	"StrongHull.h"
+
+1418826305 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\bigshipfactory.h
+	"Factory.h"
+
+1418826015 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\factory.h
+	"Engine.h"
+	"Hull.h"
+
+1418818835 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\engine.h
+
+1418827035 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\hull.h
+
+1418821880 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\jetengine.h
+	"Engine.h"
+
+1418827007 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\stronghull.h
+	"Hull.h"
+
+1416752740 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\coord.cpp
+	"coord.h"
+
+1418818613 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\crapengine.cpp
+	"CrapEngine.h"
+	"Engine.h"
+
+1418827083 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\crapengine.h
+	"Engine.h"
+
+1418818834 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\engine.cpp
+	"Engine.h"
+
+1418825339 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\factory.cpp
+	"Factory.h"
+
+1418826534 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\fishingboat.cpp
+	"FishingBoat.h"
+	<windows.h>
+
+1418825348 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\fishingboat.h
+	"Ship.h"
+
+1418846116 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\harbor.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<cstdlib>
+	"Ship.h"
+	"Harbor.h"
+
+1418822919 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\hull.cpp
+	"Hull.h"
+
+1418818621 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\jetengine.cpp
+	"JetEngine.h"
+	"Engine.h"
+
+1418825593 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\militaryship.cpp
+	"MilitaryShip.h"
+
+1418826422 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\militaryship.h
+	"Ship.h"
+
+1418825570 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\passengership.cpp
+	"PassengerShip.h"
+
+1418826422 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\passengership.h
+	"Ship.h"
+
+1418826522 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\pleasurecraft.cpp
+	"PleasureCraft.h"
+
+1418826422 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\pleasurecraft.h
+	"Ship.h"
+
+1418829785 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\ship.cpp
+	<iostream>
+	<map>
+	"Ship.h"
+	"Engine.h"
+	"Hull.h"
+	"Factory.h"
+	"SmallShipFactory.h"
+	"BigShipFactory.h"
+
+1418826024 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\smallshipfactory.h
+	"Factory.h"
+
+1418827060 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\smallshipfactory.cpp
+	"SmallShipFactory.h"
+	"CrapEngine.h"
+	"WeakHull.h"
+
+1418823040 c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\include\weakhull.h
+	"Hull.h"
+
+1418827012 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\stronghull.cpp
+	"StrongHull.h"
+
+1418823036 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\weakhull.cpp
+	"WeakHull.h"
+
+1418891039 source:c:\users\vincent\desktop\cours\m1\misn\c++\td\projecttrafic\projecttrafic_v2\src\instance.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<cstdlib>
+	<queue>
+	<windows.h>
+	"instance.h"
+	"Ship.h"
+	"PassengerShip.h"
+	"PleasureCraft.h"
+	"MilitaryShip.h"
+	"FishingBoat.h"
+	"Harbor.h"
+
+1418822320 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\main.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<cstdlib>
+	"Ship.h"
+	"coord.h"
+	"Harbor.h"
+	"instance.h"
+
+1418829749 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\ship.h
+	<string>
+
+1416752534 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\coord.h
+
+1418822710 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\harbor.h
+	"coord.h"
+
+1417687396 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\instance.h
+	<queue>
+
+1418826745 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\bigshipfactory.cpp
+	"BigShipFactory.h"
+	"JetEngine.h"
+	"StrongHull.h"
+
+1420295482 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\bigshipfactory.h
+	"Factory.h"
+
+1418826015 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\factory.h
+	"Engine.h"
+	"Hull.h"
+
+1418818835 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\engine.h
+
+1418827035 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\hull.h
+
+1418821880 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\jetengine.h
+	"Engine.h"
+
+1418827007 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\stronghull.h
+	"Hull.h"
+
+1416752740 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\coord.cpp
+	"coord.h"
+
+1418818613 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\crapengine.cpp
+	"CrapEngine.h"
+	"Engine.h"
+
+1418827083 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\crapengine.h
+	"Engine.h"
+
+1418818834 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\engine.cpp
+	"Engine.h"
+
+1418825339 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\factory.cpp
+	"Factory.h"
+
+1420296054 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\fishingboat.cpp
+	"FishingBoat.h"
+	"Ship.h"
+	<windows.h>
+
+1420296101 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\fishingboat.h
+	"Ship.h"
+
+1420294999 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\harbor.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<cstdlib>
+	"Ship.h"
+	"Harbor.h"
+
+1418822919 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\hull.cpp
+	"Hull.h"
+
+1420296158 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\instance.cpp
+	<iostream>
+	<map>
+	<ctime>
+	<cstdlib>
+	<queue>
+	<windows.h>
+	"instance.h"
+	"Ship.h"
+	"PassengerShip.h"
+	"PleasureCraft.h"
+	"MilitaryShip.h"
+	"FishingBoat.h"
+	"Harbor.h"
+	"SmallShipFactory.h"
+	"BigShipFactory.h"
+
+1420296063 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\passengership.h
+	"Ship.h"
+
+1420296069 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\pleasurecraft.h
+	"Ship.h"
+
+1420296073 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\militaryship.h
+	"Ship.h"
+
+1418818621 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\jetengine.cpp
+	"JetEngine.h"
+	"Engine.h"
+
+1420296080 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\militaryship.cpp
+	"MilitaryShip.h"
+	"Ship.h"
+
+1420296085 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\passengership.cpp
+	"PassengerShip.h"
+	"Ship.h"
+
+1420296088 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\pleasurecraft.cpp
+	"PleasureCraft.h"
+	"Ship.h"
+
+1420294929 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\ship.cpp
+	<iostream>
+	<map>
+	"Ship.h"
+	"Engine.h"
+	"Hull.h"
+	"Factory.h"
+	"SmallShipFactory.h"
+	"BigShipFactory.h"
+
+1418826024 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\smallshipfactory.h
+	"Factory.h"
+
+1418827060 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\smallshipfactory.cpp
+	"SmallShipFactory.h"
+	"CrapEngine.h"
+	"WeakHull.h"
+
+1418823040 c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\include\weakhull.h
+	"Hull.h"
+
+1420294669 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\stronghull.cpp
+	"StrongHull.h"
+
+1420294673 source:c:\users\vincent\desktop\cours\m1\misn\c++\coursprogobjet\td\projecttrafic\projecttrafic_v2\src\weakhull.cpp
+	"WeakHull.h"
+

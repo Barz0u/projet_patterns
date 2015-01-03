@@ -1,8 +1,13 @@
 #include "PleasureCraft.h"
+#include "Ship.h"
 
 PleasureCraft::PleasureCraft()
 {
     //ctor
+}
+PleasureCraft::PleasureCraft(std::string Name, Factory* f) : Ship(Name, f)
+{
+
 }
 float PleasureCraft::failureProbability(){
 	return 5;

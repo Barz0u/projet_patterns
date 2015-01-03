@@ -2,7 +2,7 @@
 #define BIGSHIPFACTORY_H
 #include "Factory.h"
 
-class BigShipFactory
+class BigShipFactory : public Factory
 {
     public:
         BigShipFactory();
